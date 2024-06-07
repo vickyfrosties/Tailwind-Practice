@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="PRINT" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 500 500">
+  <defs>
+    <style>
+      .cls-1 {
+        font-family: DelaGothicOne-Regular, 'DelaGothicOne Regular';
+        font-size: 39px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: #f4b666;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-3, .cls-4, .cls-2 {
+        stroke-width: 0px;
+      }
+
+      .cls-4, .cls-5 {
+        fill: #913b35;
+      }
+
+      .cls-5 {
+        font-family: Raleway-SemiBold, 'Raleway SemiBold';
+        font-size: 23px;
+        font-weight: 600;
+      }
+    </style>
+  </defs>
+  <rect id="CUSTOM-Background" class="cls-3" width="500" height="500"/>
+  <g id="CUSTOM-Group">
+    <ellipse class="cls-4" cx="250" cy="268.5" rx="60.18" ry="20.53"/>
+    <g>
+      <path class="cls-2" d="M320.8,178.58c0,32.22-31.51,52.75-70.8,92.04-31.15-31.15-70.8-52.94-70.8-92.04,0-32.92,31.7-70.8,70.8-70.8s70.8,31.7,70.8,70.8Z"/>
+      <g>
+        <path class="cls-4" d="M298.85,183.18l-15.34.47c.3-2.09.47-4.25.47-6.49l-73.64,1.06c0,23.01,25.14,43.19,25.14,43.19l24.43-.71s5.51-3.81,11.26-10.73l24.85-5.56,2.83-21.24ZM289.3,199.11l-12,2.1c1.88-3.27,3.53-6.91,4.73-10.88l9.04-.42-1.77,9.2Z"/>
+        <g>
+          <path class="cls-4" d="M242.21,170.79h7.79l.35-34.69-9.91.71,1.77,33.99Z"/>
+          <path class="cls-4" d="M256.73,170.43l6.37-24.43,8.14,2.83-9.2,21.95-5.31-.35Z"/>
+          <path class="cls-4" d="M236.19,170.79l-8.14-22.66-8.14,4.96,9.91,18.05,6.37-.35Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <text class="cls-5" transform="translate(124.97 275.72)"><tspan x="0" y="0">EST.</tspan></text>
+  <text class="cls-5" transform="translate(329.34 275.72)"><tspan x="0" y="0">2021</tspan></text>
+  <text class="cls-1" transform="translate(132.26 342.93)"><tspan x="0" y="0">COFFEE SPOT</tspan></text>
+  <text class="cls-5" transform="translate(203.36 373.81)"><tspan x="0" y="0">PREMIUM</tspan></text>
+</svg>

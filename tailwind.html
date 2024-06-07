@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script defer src="./tailwind.config.js"></script>
+</head>
+
+<body class="w-screen h-screen box-border bg-brown-pod-50">
+
+    <header class="bg-zinc-900 h-0/5 text-brown-pod-50 flex items-center m-auto w-screen">
+        <div class="w-screen flex m-auto">
+            <div class="w-4/12">Welcome to our online store</div>
+            <div class="flex justify-between w-4/12	 m-auto">
+                <div>Currency EUR</div>
+                <div>Language</div>
+            </div>
+        </div>
+    </header>
+    
+    <div class="w-screen bg-brown-pod-50">
+        <div class=" bg-brown-pod-50 h-25 w-4/5	m-auto flex justify-between">
+            <div class="w10/100 flex justify-between items-center">
+                <div class="w-24">
+                    <img class="w-10" src="./images/headset.png" alt="Contact téléphone">
+                </div>
+                <div>
+                    <p>Customer Support</p>
+                    <p class="cursor-pointer">123-456-7890</p>
+    
+                </div>
+            </div>
+    
+            <div class=" w-48 flex items-center justify-center">
+                <a href="./tailwind.html"><img class="w-40" src="./images/barista-logo.svg" alt="Logo Barista"></a>
+                
+            </div>
+    
+            <div class="flex justify-between items-center w-500">
+    
+                <div class="w-1/4">
+                    <img class="w-40 cursor-pointer" src="./images/sign-in.svg" alt="Sign in">
+                </div>
+                <div class=" w-10">
+                    <img class="w-40 cursor-pointer" src="./images/panier.png" alt="Panier">
+                </div>
+            </div>
+    </div>
+    </div> 
+    
+    <main class="w-screen h-4/5">
+
+        <section class="w-screen h-16 flex bg-brown-pod-200 items-center">
+            <div class="w-screen ">
+                <ul class=" flex w-2/5 justify-between mx-8 font-semibold cursor-pointer">
+                    <a href="./tailwind.html"><li>HOME</li></a>
+                    <li>ICED MOCHA</li>
+                    <li>ESPRESSO</li>
+                    <li>CAPPUCCINO</li>
+                    <li>MORE</li>
+                    <li>BLOGS</li>
+                </ul>
+            </div>
+            
+            <div class="w-1/5 flex">
+                <input class="border border-2 border-transparent hover:border-brown-pod-800 mr-6 rounded-md" type="text" name="" id="">
+                <img src="./images/loupe.png" alt="">
+            </div>
+        </section>
+
+        <section class="w-screen h-5/6 relative">
+                <img class="object-cover h-full w-screen absolute" src="./images/background-image.jpg" alt="">
+
+                <div class="w-3/12 absolute border-2 border-brown-pod-700 top-44 left-1/4 p-4 rounded-lg">
+                    <p class="text-2xl text-orange-50 pb-1.5">Delicious Coffee</p>
+                    <p class="font-semibold text-6xl text-orange-50 pb-3">Freshly Roasted Coffee</p>
+                    <button class="cursor-pointer rounded-full bg-brown-pod-400 p-3 font-semibold text-orange-50 ">SHOP NOW</button>
+                </div>
+                <div class="w-11/12 text-center flex justify-between absolute inset-0 bottom-64 m-auto">
+                    <img class="w-10 cursor-pointer absolute bottom-0 left-0 rotate-180" src="./images/right.png" alt="">
+
+                    <img class="w-10 cursor-pointer absolute bottom-0 right-0" src="./images/right.png" alt="">
+                </div>
+        </section>
+
+        <section class="h-3/6 bg-brown-pod-50 mt-10 m-auto">
+            <div class="w-4/5 flex justify-between items-center bg-brown-pod-50 m-auto">
+                <div class="flex w-1/6 bg-slate-50 text-center rounded-full p-4 font-bold">
+                        <img src="./images/livraison.png" alt="">
+
+                        <p>FREE SHIPPING WORLWIDE</p>
+                        <p class="text-sm font-light">On order over $150</p>
+                </div>
+                <div class="w-1/5 bg-slate-50 text-center rounded-full p-4 font-bold"">
+                    <img src="./images/wallet.png" alt="">
+
+                    <p>CASH ON DELIVERY</p>
+                    <p class="text-sm font-light">100% money back guarantee</p>
+                </div>
+                <div class="w-1/5 bg-slate-50 text-center rounded-full p-4 font-bold"">
+                    <img src="./images/gift.png" alt="">
+
+                    <p>SPECIAL GIFT CARD</p>
+                    <p class="text-sm font-light">Offer special bonuses with gift</p>
+                </div>
+                <div class="w-1/5 bg-slate-50 text-center rounded-full p-4 font-bold"">
+                    <img src="./images/headset.png" alt="">
+
+                    <p>24/7 CUSTOMER SERVICE</p>
+                    <p class="text-sm font-light">Call us 24/7 at 123-456-7890</p>
+                </div>
+            </div>
+
+            <h2 class="text-center mt-10 text-2xl font-bold">TOP CATEGORIES</h2>
+        </section>
+
+    </main>
+    
+</body>
+</html>
